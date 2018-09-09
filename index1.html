@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> AmFoss Login Page </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+  <header> 
+  This page was made by Avanish.K.a
+  </header>
+  <div class="loginsection">
+  <img src="avatar2.png" class="avatar">
+      <h1> Login Here </h1>
+      <form>
+           <p>Username</p>
+           <input type="text" name="batman" placeholder="Enter Username">
+           <p>Password</p>
+           <input type="password" name="savemartha" placeholder="Enter Password">
+           <input type="submit" onclick="check(this.form)" name="" value="Login">
+           <script language="javascript">
+function check(form)  
+{
+ if(form.batman.value=="batman" && form.savemartha.value=="savemartha")
+  {
+    window.open('page2.html')
+  }
+ else
+ {
+   alert("Error Password or Username")
+  }
+}
+        
+</script>
+      </form>
+  </div 
+
+</body>
+</head>
+</html>
