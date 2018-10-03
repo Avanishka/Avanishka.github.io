@@ -1,18 +1,20 @@
-//Avanish.K.a
+/*Avanish.K.a*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body{
+body {
      margin: 0;
      padding: 0;
      background: url(image.jpg);
      background-size: cover;
      background-position: center;
-     font-family sans-serif;
+     font-family: 'Roboto', sans-serif;
 }
 
 .loginsection{
      width: 320px;
      height: 420px;
-     background: #000;
+     background: #232323;
+     border-radius:5px;
      color: #fff;
      top: 50%;
      left: 50%;
@@ -42,6 +44,7 @@ h1{
      margin: 0;
      padding: 0;
      font-weight: bold;
+     font-family: Roboto;
 }
 
 .loginsection input{
@@ -67,6 +70,7 @@ h1{
      color: #fff;
      font-size: 20px;
      border-radius: 20px;
+     transition:0.2s ease;
 }
 
 .loginsection input[type="submit"]:hover{
